@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://scripts/gamelevel.gd" id="1_w86vv"]
 [ext_resource type="Texture2D" uid="uid://bl2ucda7ewdiw" path="res://assets/Cozy Farm Tileset.png" id="2_r3v1k"]
 [ext_resource type="Texture2D" uid="uid://dgymse4x6g66x" path="res://assets/barn.png" id="3_ou7sf"]
-[ext_resource type="PackedScene" uid="uid://doshxf2debles" path="res://scenes/animal.tscn" id="4_braae"]
+[ext_resource type="PackedScene" uid="uid://yak7438fnhwo" path="res://scenes/cow.tscn" id="5_558y8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5mtjw"]
 texture = ExtResource("2_r3v1k")
@@ -48,7 +48,7 @@ script = ExtResource("1_w86vv")
 
 [node name="Player" parent="." instance=ExtResource("1_7o0dy")]
 z_index = 1
-position = Vector2(155, 116)
+position = Vector2(271, 160)
 metadata/_edit_lock_ = true
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -74,11 +74,11 @@ scale = Vector2(0.582474, 0.555)
 texture = ExtResource("3_ou7sf")
 metadata/_edit_lock_ = true
 
-[node name="animal" parent="." instance=ExtResource("4_braae")]
-position = Vector2(342, 142)
+[node name="cow" parent="." instance=ExtResource("5_558y8")]
+position = Vector2(280, 125)
 
-[node name="animal2" parent="." instance=ExtResource("4_braae")]
-position = Vector2(277, 126)
+[node name="cow2" parent="." instance=ExtResource("5_558y8")]
+position = Vector2(302, 148)
 
-[node name="animal3" parent="." instance=ExtResource("4_braae")]
-position = Vector2(306, 148)
+[node name="cow3" parent="." instance=ExtResource("5_558y8")]
+position = Vector2(336, 153)
