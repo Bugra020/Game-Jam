@@ -36,7 +36,6 @@ func _process(delta):
 		milkable = false
 		milk_procces = 0
 		statusBubble.visible = false
-		print("cow milked!")
 		colliding_with_player = false
 	
 

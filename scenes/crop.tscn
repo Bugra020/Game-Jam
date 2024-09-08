@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://k2m2qapafxby"]
+
+[ext_resource type="Script" path="res://scripts/crop.gd" id="1_x07ln"]
+[ext_resource type="Texture2D" uid="uid://b364m05v1pdpl" path="res://assets/tomato.png" id="1_ynx0k"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kahgc"]
+radius = 9.0
+
+[node name="crop" type="Area2D"]
+script = ExtResource("1_x07ln")
+
+[node name="cropSprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ynx0k")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CapsuleShape2D_kahgc")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

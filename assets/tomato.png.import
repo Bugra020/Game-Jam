@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jekc74pcqg8q"
-path="res://.godot/imported/New Piskel-1.png.png-2cf085ed12b52d1fb36c5afad91a754c.ctex"
+uid="uid://b364m05v1pdpl"
+path="res://.godot/imported/tomato.png-0703326d65793356cd32fc5ba3f82ec8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/New Piskel-1.png.png"
-dest_files=["res://.godot/imported/New Piskel-1.png.png-2cf085ed12b52d1fb36c5afad91a754c.ctex"]
+source_file="res://assets/tomato.png"
+dest_files=["res://.godot/imported/tomato.png-0703326d65793356cd32fc5ba3f82ec8.ctex"]
 
 [params]
 

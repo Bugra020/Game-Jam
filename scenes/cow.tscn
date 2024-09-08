@@ -19,10 +19,11 @@ animations = [{
 size = Vector2(47, 39)
 
 [node name="cow" type="Area2D"]
-scale = Vector2(0.2, 0.2)
+scale = Vector2(0.3, 0.3)
 script = ExtResource("1_gu6j8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 2
 sprite_frames = SubResource("SpriteFrames_qukor")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -30,8 +31,9 @@ position = Vector2(9.5, 19.5)
 shape = SubResource("RectangleShape2D_fd7x6")
 
 [node name="status_bubble" type="Sprite2D" parent="."]
+z_index = 1
 position = Vector2(-65, -40)
-scale = Vector2(2, 1.737)
+scale = Vector2(3, 2.606)
 texture = ExtResource("3_28cfh")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
