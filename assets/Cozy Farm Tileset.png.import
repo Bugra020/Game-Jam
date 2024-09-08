@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2e8u35y0xiir"
-path="res://.godot/imported/Sprout Lands defautlt palette.png-ec4cb7057cdfed435d4269cc12b3283b.ctex"
+uid="uid://bl2ucda7ewdiw"
+path="res://.godot/imported/Cozy Farm Tileset.png-8e3d5c5f7887a7ccb2681d03feb65875.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://temp_assets/Sprout Lands - Sprites - Basic pack/Sprout Lands color pallet/Sprout Lands defautlt palette.png"
-dest_files=["res://.godot/imported/Sprout Lands defautlt palette.png-ec4cb7057cdfed435d4269cc12b3283b.ctex"]
+source_file="res://assets/Cozy Farm Tileset.png"
+dest_files=["res://.godot/imported/Cozy Farm Tileset.png-8e3d5c5f7887a7ccb2681d03feb65875.ctex"]
 
 [params]
 
